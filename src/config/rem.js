@@ -4,7 +4,7 @@
   let calculate = () => {
     let clientWidth = docEle.clientWidth
     if (!clientWidth) return
-    docEle.style.fontSize = 20 / 320 * clientWidth + 'px'
+    docEle.style.fontSize = 20 / 375 * clientWidth + 'px'
   }
   calculate()
   doc.addEventListener(eve, calculate, false)
